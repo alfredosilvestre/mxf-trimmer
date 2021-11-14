@@ -67,7 +67,14 @@ Sadly, no automated tests were created yet so just open a file GUI and test if t
 ## 🎈 Usage <a name="usage"></a>
 This repository has the functionalities for trimming MXF files, based on [PowerVS Core](https://github.com/alfredosilvestre/powervs-core).
 
-Basic shortcuts are:
+### Interface functionalities
+- Trimming D10 IMX30 and IMX50 MXF files
+- Reading/writing timecodes
+- Change aspect ratio between 4x3 and 16x9
+- Audio visualization up to 8 channels (2 at a time)
+- Option to visualize and set up trim for another clip while the first trim is processing
+
+### Basic shortcuts
 - SPACEBAR -> Play/Pause
 - J -> Go to previous frame
 - K -> Play/Pause
@@ -83,6 +90,7 @@ Basic shortcuts are:
 - Q -> Goto In
 - W -> Goto Out
 
+## :thought_balloon: Development <a name="development"></a>
 
 ### Available Defines
 
